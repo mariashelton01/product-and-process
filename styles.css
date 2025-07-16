@@ -2364,14 +2364,33 @@ header, .header {
 }
 @media (max-width: 600px) {
   .industries-network-container {
-    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: unset;
+    width: 100%;
+    gap: 0.7em;
   }
-  .industries-label-1 { left: 0; top: 0; }
-  .industries-label-2 { left: 0; top: 70px; }
-  .industries-label-3 { left: 0; bottom: 0; }
-  .industries-label-4 { right: 0; top: 0; }
-  .industries-label-5 { right: 0; top: 70px; }
-  .industries-label-6 { right: 0; bottom: 0; }
+  .industries-network-img {
+    max-width: 220px;
+    width: 80vw;
+    margin-bottom: 1em;
+  }
+  .industries-label {
+    position: static;
+    margin: 0.3em 0;
+    min-width: 0;
+    width: 90vw;
+    max-width: 320px;
+    font-size: 0.98em;
+    text-align: center;
+    display: block;
+    left: unset !important;
+    right: unset !important;
+    top: unset !important;
+    bottom: unset !important;
+    transform: none !important;
+  }
 }
 
 .industry-verticals-card {
