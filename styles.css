@@ -700,6 +700,9 @@ header {
     margin-left: 0;
     margin-top: 32px;
   }
+  .hero-left {
+    margin-top: 32px;
+  }
 }
 @media (max-width: 600px) {
   .hero-section {
